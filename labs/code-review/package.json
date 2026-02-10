@@ -1,0 +1,20 @@
+{
+  "name": "vulnerable-code-review-lab",
+  "version": "1.0.0",
+  "description": "Training lab: intentionally vulnerable sample for secure code review (SQLi, XSS, IDOR)",
+  "main": "vulnerable.js",
+  "scripts": {
+    "start": "node vulnerable.js",
+    "dev": "nodemon vulnerable.js"
+  },
+  "author": "Training Lab",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

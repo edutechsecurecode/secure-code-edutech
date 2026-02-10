@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Profile</title>
+</head>
+<body>
+  <h1>Profile Page</h1>
+  <!-- VULNERABLE: user.name rendered raw -->
+  <h2>Welcome <%- user.name %></h2>
+
+  <p>Try append <code>?name=&lt;script&gt;alert(1)&lt;/script&gt;</code> to the URL</p>
+</body>
+</html>
